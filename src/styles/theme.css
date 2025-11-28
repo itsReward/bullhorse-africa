@@ -1,7 +1,13 @@
 :root {
-    --primary-color: #8B4513; /* SaddleBrown */
-    --secondary-color: #DAA520; /* GoldenRod */
-    --text-color: #333;
-    --bg-color: #f4f4f4;
+    --primary-color: #DC143C; /* Crimson Red */
+    --primary-dark: #B91125; /* Darker Red */
+    --primary-light: #FF4757; /* Light Red */
+    --secondary-color: #6c757d; /* Grey */
+    --text-color: #2d3436;
+    --text-light: #636e72;
+    --bg-color: #f8f9fa;
     --white: #ffffff;
+    --black: #1a1a1a;
+    --grey-light: #e9ecef;
+    --grey-dark: #495057;
 }
