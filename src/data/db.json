@@ -1,0 +1,32 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Bullhorse Trekker",
+      "price": 120,
+      "description": "Rugged boots for the African terrain.",
+      "image": "assets/images/trekker.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Savannah Hat",
+      "price": 45,
+      "description": "Wide brim protection against the sun.",
+      "image": "assets/images/hat.jpg"
+    }
+  ],
+  "awards": [
+    {
+      "id": "a1",
+      "title": "Best African Startup 2025",
+      "organization": "Tech Africa",
+      "year": 2025
+    },
+    {
+      "id": "a2",
+      "title": "Sustainable Design Award",
+      "organization": "Green Future",
+      "year": 2024
+    }
+  ]
+}
