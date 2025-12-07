@@ -3,11 +3,12 @@
     --primary-dark: #B91125; /* Darker Red */
     --primary-light: #FF4757; /* Light Red */
     --secondary-color: #6c757d; /* Grey */
-    --text-color: #2d3436;
-    --text-light: #636e72;
-    --bg-color: #f8f9fa;
+    --text-color: #ffffff; /* White text */
+    --text-light: #e0e0e0; /* Light grey text */
+    --bg-color: #000000; /* Black background */
+    --bg-dark: #000000; /* Black */
     --white: #ffffff;
-    --black: #1a1a1a;
-    --grey-light: #e9ecef;
-    --grey-dark: #495057;
+    --black: #000000; /* Pure black */
+    --grey-light: #1a1a1a; /* Very dark grey for cards */
+    --grey-dark: #333333; /* Dark grey for borders */
 }
