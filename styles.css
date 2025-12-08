@@ -1,0 +1,10 @@
+#hero {
+    background-image: url('public/assets/images/landing_image.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* ...existing code... */
+}
+
+/* Remove or comment out any styles for .hero-image if they exist */
+

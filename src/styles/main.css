@@ -190,8 +190,7 @@ section {
     justify-content: center;
     padding: 7rem 2rem 2rem 2rem;
     margin: 0;
-    background: #ff0000;
-    background: linear-gradient(146deg, rgba(255, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    background: url("public/assets/images/landing_image.png") center/cover no-repeat;
     overflow: hidden;
 }
 

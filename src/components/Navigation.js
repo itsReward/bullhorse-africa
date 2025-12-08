@@ -3,10 +3,8 @@ export function renderNavigation(element) {
         <nav class="navbar">
             <div class="nav-container">
                 <div class="nav-logo">
-                    <a href="#landing-section">
-                        <span class="logo-text">Bullhorse</span>
-                        <span class="logo-accent">Africa</span>
-                    </a>
+                <img src="logo/logo.png" alt="Bullhorse Africa Logo" class="logo-image"/>
+                    
                 </div>
 
                 <button class="nav-toggle" aria-label="Toggle navigation">
