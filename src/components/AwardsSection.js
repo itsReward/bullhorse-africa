@@ -46,6 +46,22 @@ export function renderAwards(element, awards) {
                     <p class="about-card-text">We prioritise quality in all our products, guaranteeing that each component part meets or exceeds industry standards. Providing reliability and durability for your vehicles.</p>
                 </div>
             </div>
+
+            <div class="awards-container">
+                <h3 class="awards-text">Outstanding Autor Spares and Motor entreprenuer</h3>
+                <div class="awards-images">
+                    <img src="./public/assets/images/award1.jpg" alt="Award 1" class="award-image">
+                    <img src="./public/assets/images/award2.jpg" alt="Award 2" class="award-image">
+                </div>
+            </div>
+
+            <div class="community-container">
+                <h3 class="community-heading">Bullhorse supporting schools</h3>
+                <div class="community-image-wrapper">
+                    <img src="./public/assets/images/soccerkit.jpg" alt="Soccer Kit Donation" class="community-image">
+                    <p class="community-caption">Donated full soccer kit</p>
+                </div>
+            </div>
         </div>
     `;
 }

@@ -190,21 +190,11 @@ section {
     justify-content: center;
     padding: 7rem 2rem 2rem 2rem;
     margin: 0;
-    background: url("public/assets/images/landing_image.png") center/cover no-repeat;
+    background: url("/public/assets/images/landing_image.png") center/cover no-repeat;
     overflow: hidden;
 }
 
-.hero-wrapper {
-    max-width: 1400px;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    gap: 4rem;
-    position: relative;
-    z-index: 2;
-}
-
+/* Dark overlay */
 .hero-container::before {
     content: '';
     position: absolute;
@@ -212,23 +202,46 @@ section {
     left: 0;
     width: 100%;
     height: 100%;
+    background: rgba(0, 0, 0, 0.65); /* Dark overlay - adjust opacity as needed */
+    z-index: 1;
+}
+
+/* Pattern overlay (optional - keep if you want the diagonal lines) */
+.hero-container::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     background: repeating-linear-gradient(
-        45deg,
-        transparent,
-        transparent 100px,
-        var(--primary-color) 100px,
-        var(--primary-color) 102px
+            45deg,
+            transparent,
+            transparent 100px,
+            var(--primary-color) 100px,
+            var(--primary-color) 102px
     );
-    opacity: 0.1;
+    opacity: 0.05; /* Reduced opacity since we have dark overlay */
     pointer-events: none;
     z-index: 1;
+}
+
+.hero-wrapper {
+    max-width: 900px; /* Reduced from 1400px since we removed the image */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 2;
 }
 
 .hero-content {
     position: relative;
     z-index: 2;
-    text-align: left;
+    text-align: center; /* Changed from left to center */
     animation: fadeInUp 1s ease-out;
+    width: 100%;
 }
 
 .hero-title {
@@ -236,7 +249,7 @@ section {
 }
 
 .brand-name {
-    font-size: clamp(2.5rem, 5vw, 4rem);
+    font-size: clamp(2.5rem, 5vw, 4.5rem); /* Slightly larger since it's centered */
     font-weight: 800;
     background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-light) 100%);
     -webkit-background-clip: text;
@@ -248,13 +261,14 @@ section {
 }
 
 .hero-subtitle {
-    font-size: clamp(1.5rem, 3vw, 2.2rem);
+    font-size: clamp(1.5rem, 3vw, 2.5rem); /* Slightly larger */
     font-weight: 600;
     color: var(--secondary-color);
     min-height: 4rem;
     margin: 1.5rem 0;
     display: flex;
     align-items: center;
+    justify-content: center; /* Center the animated text */
     gap: 0.3rem;
 }
 
@@ -265,12 +279,14 @@ section {
 .whatsapp-notice {
     display: flex;
     align-items: center;
+    justify-content: center; /* Center the notice */
     gap: 0.75rem;
-    background: rgba(220, 20, 60, 0.1);
+    background: rgba(220, 20, 60, 0.15); /* Slightly more visible on dark background */
     border-left: 4px solid var(--primary-color);
     padding: 1rem 1.5rem;
     border-radius: 8px;
-    margin-bottom: 2rem;
+    margin: 0 auto 2rem auto; /* Center the notice */
+    max-width: 600px;
     color: var(--text-light);
     font-size: 1rem;
 }
@@ -294,8 +310,8 @@ section {
 .hero-description {
     font-size: clamp(1rem, 2vw, 1.2rem);
     color: var(--text-light);
-    margin-bottom: 2.5rem;
-    max-width: 500px;
+    margin: 0 auto 2.5rem auto; /* Center the description */
+    max-width: 600px;
     line-height: 1.8;
 }
 
@@ -303,85 +319,12 @@ section {
     display: flex;
     gap: 1rem;
     flex-wrap: wrap;
+    justify-content: center; /* Center the buttons */
 }
 
+/* Remove the hero-image styles completely or comment them out */
 .hero-image {
-    position: relative;
-    z-index: 2;
-    animation: fadeInRight 1s ease-out;
-}
-
-.hero-image img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-    border-radius: 20px;
-}
-
-@keyframes fadeInRight {
-    from {
-        opacity: 0;
-        transform: translateX(30px);
-    }
-    to {
-        opacity: 1;
-        transform: translateX(0);
-    }
-}
-
-.btn {
-    padding: 1rem 2.5rem;
-    font-size: 1.1rem;
-    font-weight: 600;
-    text-decoration: none;
-    border-radius: 50px;
-    transition: all 0.3s ease;
-    display: inline-block;
-    border: 2px solid transparent;
-    cursor: pointer;
-}
-
-.btn-primary {
-    background: var(--primary-color);
-    color: var(--white);
-    box-shadow: 0 4px 15px rgba(220, 20, 60, 0.3);
-}
-
-.btn-primary:hover {
-    background: var(--primary-dark);
-    transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(220, 20, 60, 0.4);
-}
-
-.btn-secondary {
-    background: transparent;
-    color: var(--white);
-    border: 2px solid var(--white);
-}
-
-.btn-secondary:hover {
-    background: var(--white);
-    color: var(--black);
-    transform: translateY(-2px);
-}
-
-.btn-whatsapp {
-    background: #25D366;
-    color: var(--white);
-    box-shadow: 0 4px 15px rgba(37, 211, 102, 0.3);
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-}
-
-.btn-whatsapp:hover {
-    background: #20BA5A;
-    transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(37, 211, 102, 0.4);
-}
-
-.btn-whatsapp svg {
-    flex-shrink: 0;
+    display: none; /* Hide if it still exists in some legacy code */
 }
 
 @keyframes fadeInUp {
@@ -392,6 +335,110 @@ section {
     to {
         opacity: 1;
         transform: translateY(0);
+    }
+}
+
+/* Button Styles */
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+    padding: 1rem 2.5rem;
+    border-radius: 50px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+.btn-whatsapp {
+    background: #25D366;
+    color: var(--white);
+    box-shadow: 0 4px 15px rgba(37, 211, 102, 0.3);
+}
+
+.btn-whatsapp:hover {
+    background: #20BA5A;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 25px rgba(37, 211, 102, 0.5);
+}
+
+.btn-whatsapp svg {
+    width: 24px;
+    height: 24px;
+}
+
+.btn-secondary {
+    background: transparent;
+    color: var(--white);
+    border: 2px solid var(--primary-color);
+    box-shadow: 0 4px 15px rgba(220, 20, 60, 0.2);
+}
+
+.btn-secondary:hover {
+    background: var(--primary-color);
+    color: var(--white);
+    transform: translateY(-3px);
+    box-shadow: 0 6px 25px rgba(220, 20, 60, 0.5);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero-container {
+        min-height: auto;
+        padding: 5rem 1.5rem 3rem 1.5rem;
+    }
+
+    .hero-wrapper {
+        max-width: 100%;
+    }
+
+    .hero-content {
+        text-align: center;
+    }
+
+    .hero-subtitle {
+        min-height: 5rem;
+        justify-content: center;
+    }
+
+    .hero-description {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hero-cta {
+        justify-content: center;
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .btn {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .brand-name {
+        letter-spacing: -1px;
+    }
+
+    .hero-description {
+        font-size: 1rem;
+    }
+
+    .btn {
+        padding: 0.875rem 2rem;
+        font-size: 1rem;
+    }
+
+    .hero-container::before {
+        background: rgba(0, 0, 0, 0.7); /* Darker overlay on mobile for better text readability */
     }
 }
 
@@ -621,6 +668,127 @@ section {
 
     .about-subtitle {
         font-size: 1rem;
+    }
+}
+
+/* Awards Container Styles */
+.awards-container {
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.awards-text {
+    font-size: 1.5rem;
+    color: var(--white);
+    margin-bottom: 2rem;
+    font-weight: 600;
+}
+
+.awards-images {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.award-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 12px;
+    border: 2px solid var(--grey-dark);
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.award-image:hover {
+    transform: translateY(-5px);
+    border-color: var(--primary-color);
+    box-shadow: 0 10px 30px rgba(220, 20, 60, 0.3);
+}
+
+@media (max-width: 768px) {
+    .awards-container {
+        margin-top: 3rem;
+    }
+
+    .awards-text {
+        font-size: 1.2rem;
+        padding: 0 1rem;
+    }
+
+    .awards-images {
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+    }
+
+    .award-image {
+        max-width: 100%;
+    }
+}
+
+/* Community Support Section Styles */
+.community-container {
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.community-heading {
+    font-size: 2rem;
+    color: var(--white);
+    margin-bottom: 2rem;
+    font-weight: 700;
+}
+
+.community-image-wrapper {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.community-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 12px;
+    border: 2px solid var(--grey-dark);
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    margin-bottom: 1rem;
+}
+
+.community-image:hover {
+    transform: translateY(-5px);
+    border-color: var(--primary-color);
+    box-shadow: 0 10px 30px rgba(220, 20, 60, 0.3);
+}
+
+.community-caption {
+    font-size: 1.1rem;
+    color: var(--text-light);
+    font-style: italic;
+    font-weight: 500;
+}
+
+@media (max-width: 768px) {
+    .community-container {
+        margin-top: 3rem;
+    }
+
+    .community-heading {
+        font-size: 1.5rem;
+        padding: 0 1rem;
+    }
+
+    .community-image {
+        max-width: 100%;
+    }
+
+    .community-caption {
+        font-size: 1rem;
+        padding: 0 1rem;
     }
 }
 
@@ -1054,5 +1222,46 @@ section {
     .products-grid {
         grid-template-columns: 1fr;
         gap: 1.5rem;
+    }
+}
+
+/* Logo Styles - Add this to your src/styles/main.css file */
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.logo-image {
+    height: 50px;
+    width: auto;
+    max-width: 200px;
+    object-fit: contain;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.logo-image:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+
+/* Responsive logo sizing */
+@media (max-width: 768px) {
+    .logo-image {
+        height: 40px;
+        max-width: 150px;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo-image {
+        height: 35px;
+        max-width: 120px;
     }
 }

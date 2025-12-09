@@ -1,144 +1,201 @@
 {
   "productCategories": [
     {
-      "id": "braking",
-      "name": "Braking",
+      "id": "brake-system",
+      "name": "Brake System",
       "products": [
-        { "id": "br1", "name": "Brake Pads", "description": "Heavy-duty brake pads for maximum stopping power", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsbNTD0powYjgeXblntpan8BcaM834LXEfTQ&s" },
-        { "id": "br2", "name": "Brake Discs", "description": "High-performance brake discs for all major truck brands", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsbNTD0powYjgeXblntpan8BcaM834LXEfTQ&s" },
-        { "id": "br3", "name": "Calipers", "description": "High-quality disc brake calipers", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsbNTD0powYjgeXblntpan8BcaM834LXEfTQ&s" }
+        {
+          "id": "br1",
+          "name": "Brake Parts",
+          "description": "Image of brake system parts.",
+          "image": "https://drive.google.com/file/d/1mGC8UogFdQP92g_17aAH7oQS_1oukPx0/view?usp=sharing"
+        }
+      ]
+    },
+    {
+      "id": "clutch-system",
+      "name": "Clutch System",
+      "products": [
+        {
+          "id": "cl1",
+          "name": "Clutch Group",
+          "description": "Image of clutch group parts.",
+          "image": "https://drive.google.com/file/d/1Mqb1OV0inUk2HS9UMEwZZbiDerTuMYaU/view?usp=sharing"
+        },
+        {
+          "id": "cl2",
+          "name": "Clutch Accessories",
+          "description": "Image of clutch accessories.",
+          "image": "https://drive.google.com/file/d/1Kw_iksfXWXQ6MdlQFH-n4KdO9XKHFj7k/view?usp=sharing"
+        }
+      ]
+    },
+    {
+      "id": "cooling-system",
+      "name": "Cooling System",
+      "products": [
+        {
+          "id": "co1",
+          "name": "Cooling Parts",
+          "description": "Image of cooling system parts.",
+          "image": "https://drive.google.com/file/d/1MB7fQE3MKm47pyXYLD0T3IRVsJ36D40B/view?usp=sharing"
+        }
+      ]
+    },
+    {
+      "id": "engine-parts",
+      "name": "Engine Parts",
+      "products": [
+        {
+          "id": "ep1",
+          "name": "Engine Parts",
+          "description": "Image of engine parts.",
+          "image": "https://drive.google.com/uc?export=view&id=1ihmW-eVYhSSRaVdxRoobsyk1aSaFkfeJ/view?usp=sharing"
+        }
+      ]
+    },
+    {
+      "id": "filtration",
+      "name": "Filtration",
+      "products": [
+        {
+          "id": "fi1",
+          "name": "Filtration Group",
+          "description": "Image of filtration group parts.",
+          "image": "https://drive.google.com/uc?export=view&id=1AMNVLJKhVlmuH9e9tFKfbJhWypDMSJVR/view?usp=sharing"
+        }
+      ]
+    },
+    {
+      "id": "fuel-system",
+      "name": "Fuel System",
+      "products": [
+        {
+          "id": "fu1",
+          "name": "Fuel Parts",
+          "description": "Image of fuel system parts.",
+          "image": "https://drive.google.com/uc?export=view&id=1LkYsitCjHRP_hoDSxL2FqHwNuhcr177v/view?usp=sharing"
+        }
+      ]
+    },
+    {
+      "id": "electrical",
+      "name": "Electrical",
+      "products": [
+        {
+          "id": "el1",
+          "name": "Hooters, Buzzers & Alarms",
+          "description": "Hooters, buzzers, and alarms image.",
+          "image": "https://drive.google.com/uc?export=view&id=1X20QdPaWLZGMPs_5JEPiUSf3ss1DBLhV/view?usp=sharing"
+        },
+        {
+          "id": "el2",
+          "name": "Head Lamps",
+          "description": "Head lamps image.",
+          "image": "https://drive.google.com/uc?export=view&id=1eqe8abf2c1nkh91yQGFoBSTn_3pGuwt9/view?usp=sharing"
+        },
+        {
+          "id": "el3",
+          "name": "Electricals Parts",
+          "description": "EUROSPEC CALCIUM SUPER POWER Battery.",
+          "image": "https://drive.google.com/uc?export=view&id=1xg7-5Ko6AQvi9FVLeYNadJQqUPS_b3uK/view?usp=sharing"
+        }
+      ]
+    },
+    {
+      "id": "propshaft",
+      "name": "Propshaft",
+      "products": [
+        {
+          "id": "pr1",
+          "name": "Propshaft Group",
+          "description": "Image of propshaft group.",
+          "image": "https://drive.google.com/uc?export=view&id=124ZAw5ZYeD7uSku1Gj7sOePYy-7uLGq6/view?usp=sharing"
+        }
+      ]
+    },
+    {
+      "id": "pumps",
+      "name": "Pumps",
+      "products": [
+        {
+          "id": "pu1",
+          "name": "Pumps",
+          "description": "Image of pumps.",
+          "image": "https://drive.google.com/uc?export=view&id=1JKYlz1NOMAoqpIFmk9MZcQK0llMd54XD/view?usp=sharing"
+        }
+      ]
+    },
+    {
+      "id": "pulleys-belts",
+      "name": "Pulleys and Belts",
+      "products": [
+        {
+          "id": "pb1",
+          "name": "Pulleys with Belts",
+          "description": "Image of pulleys with belts.",
+          "image": "https://drive.google.com/uc?export=view&id=12JxFDSADk-WGup-Pbg2UrZXkYZ1A98qz/view?usp=sharing"
+        }
+      ]
+    },
+    {
+      "id": "steering-system",
+      "name": "Steering System",
+      "products": [
+        {
+          "id": "st1",
+          "name": "Steering System",
+          "description": "Image of steering system parts.",
+          "image": "https://drive.google.com/uc?export=view&id=1aXJsBuFv0RIf6x8Sp9sv6JNDoXSH9y24/view?usp=sharing"
+        }
       ]
     },
     {
       "id": "suspension",
       "name": "Suspension",
       "products": [
-        { "id": "su1", "name": "Air Bags", "description": "Durable air suspension components", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsbNTD0powYjgeXblntpan8BcaM834LXEfTQ&s" },
-        { "id": "su2", "name": "Shocks", "description": "Premium shock absorbers for smooth ride", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsbNTD0powYjgeXblntpan8BcaM834LXEfTQ&s" },
-        { "id": "su3", "name": "Track Rods", "description": "Heavy-duty track rod assemblies", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsbNTD0powYjgeXblntpan8BcaM834LXEfTQ&s" },
-        { "id": "su4", "name": "Draglinks", "description": "Steering draglink components", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsbNTD0powYjgeXblntpan8BcaM834LXEfTQ&s" },
-        { "id": "su5", "name": "Ball Joints", "description": "Heavy-duty ball joint assemblies", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsbNTD0powYjgeXblntpan8BcaM834LXEfTQ&s" },
-        { "id": "su6", "name": "V Stays", "description": "V-stay suspension components", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsbNTD0powYjgeXblntpan8BcaM834LXEfTQ&s" },
-        { "id": "su7", "name": "Kingpins", "description": "Precision kingpin sets", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsbNTD0powYjgeXblntpan8BcaM834LXEfTQ&s" },
-        { "id": "su8", "name": "Bushings", "description": "Suspension and chassis bushings", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsbNTD0powYjgeXblntpan8BcaM834LXEfTQ&s" },
-        { "id": "su9", "name": "Wheel Bearings", "description": "Heavy-duty wheel bearing kits", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsbNTD0powYjgeXblntpan8BcaM834LXEfTQ&s" }
+        {
+          "id": "su1",
+          "name": "Suspension Parts",
+          "description": "Image of suspension parts.",
+          "image": "https://drive.google.com/uc?export=view&id=1FRLeYS9Ok9xK-ShMaxj9yTJoYcakKtHx/view?usp=sharing"
+        }
       ]
     },
     {
-      "id": "cooling",
-      "name": "Cooling",
+      "id": "universal-components",
+      "name": "Universal Components",
       "products": [
-        { "id": "co1", "name": "Radiators", "description": "Heavy-duty cooling radiators", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsbNTD0powYjgeXblntpan8BcaM834LXEfTQ&s" },
-        { "id": "co2", "name": "Water Pumps", "description": "Coolant circulation pumps", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsbNTD0powYjgeXblntpan8BcaM834LXEfTQ&s" },
-        { "id": "co3", "name": "Viscous Fans", "description": "Viscous coupling cooling fans", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsbNTD0powYjgeXblntpan8BcaM834LXEfTQ&s" },
-        { "id": "co4", "name": "Belts", "description": "Drive belts and serpentine belts", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsbNTD0powYjgeXblntpan8BcaM834LXEfTQ&s" },
-        { "id": "co5", "name": "Header Tanks", "description": "Coolant expansion tanks", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsbNTD0powYjgeXblntpan8BcaM834LXEfTQ&s" },
-        { "id": "co6", "name": "Tensioners", "description": "Belt tensioner assemblies", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsbNTD0powYjgeXblntpan8BcaM834LXEfTQ&s" },
-        { "id": "co7", "name": "Oil Cooler", "description": "Engine oil cooling systems", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsbNTD0powYjgeXblntpan8BcaM834LXEfTQ&s" }
+        {
+          "id": "uc1",
+          "name": "Universal Components",
+          "description": "Image of universal components.",
+          "image": "https://drive.google.com/uc?export=view&id=1fWhhPXiRXXiw397iMV2n4D0hFC3qSJbJ/view?usp=sharing"
+        }
       ]
     },
     {
-      "id": "engine-parts",
-      "name": "Engine Parts (Filing)",
+      "id": "exhaust-system",
+      "name": "Exhaust System",
       "products": [
-        { "id": "ep1", "name": "Filters", "description": "Oil, fuel, and air filters", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsbNTD0powYjgeXblntpan8BcaM834LXEfTQ&s" },
-        { "id": "ep2", "name": "Gaskets", "description": "Complete gasket sets", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsbNTD0powYjgeXblntpan8BcaM834LXEfTQ&s" },
-        { "id": "ep3", "name": "Rings", "description": "Precision-engineered piston ring sets", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsbNTD0powYjgeXblntpan8BcaM834LXEfTQ&s" },
-        { "id": "ep4", "name": "Liners", "description": "Cylinder liner sets", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsbNTD0powYjgeXblntpan8BcaM834LXEfTQ&s" },
-        { "id": "ep5", "name": "Camshaft", "description": "Camshaft assemblies", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsbNTD0powYjgeXblntpan8BcaM834LXEfTQ&s" },
-        { "id": "ep6", "name": "Pistons", "description": "High-performance pistons", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsbNTD0powYjgeXblntpan8BcaM834LXEfTQ&s" },
-        { "id": "ep7", "name": "Turbo Chargers", "description": "High-performance turbochargers", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsbNTD0powYjgeXblntpan8BcaM834LXEfTQ&s" }
+        {
+          "id": "ex1",
+          "name": "Exhaust System",
+          "description": "Image of exhaust system parts.",
+          "image": "https://drive.google.com/uc?export=view&id=1BrXcobEaC92245bT1-VNGReUb1TW8asc/view?usp=sharing"
+        }
       ]
     },
     {
-      "id": "clutch-parts",
-      "name": "Clutch Parts (Bullhorse)",
+      "id": "lubricants",
+      "name": "Lubricants",
       "products": [
-        { "id": "cl1", "name": "Clutch Plates", "description": "Heavy-duty clutch plates", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsbNTD0powYjgeXblntpan8BcaM834LXEfTQ&s" },
-        { "id": "cl2", "name": "Pressure Plates", "description": "Clutch pressure plate assemblies", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsbNTD0powYjgeXblntpan8BcaM834LXEfTQ&s" },
-        { "id": "cl3", "name": "Thrust Bearings", "description": "Clutch release bearings", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsbNTD0powYjgeXblntpan8BcaM834LXEfTQ&s" },
-        { "id": "cl4", "name": "Pilot Bearing", "description": "Clutch pilot bearing assemblies", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsbNTD0powYjgeXblntpan8BcaM834LXEfTQ&s" },
-        { "id": "cl5", "name": "Flywheel", "description": "Dual mass flywheels", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsbNTD0powYjgeXblntpan8BcaM834LXEfTQ&s" },
-        { "id": "cl6", "name": "Master Cylinders", "description": "Clutch master cylinder assemblies", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsbNTD0powYjgeXblntpan8BcaM834LXEfTQ&s" },
-        { "id": "cl7", "name": "Actuators", "description": "Clutch actuator systems", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsbNTD0powYjgeXblntpan8BcaM834LXEfTQ&s" },
-        { "id": "cl8", "name": "Servos", "description": "Clutch servo units", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsbNTD0powYjgeXblntpan8BcaM834LXEfTQ&s" }
-      ]
-    },
-    {
-      "id": "propshaft",
-      "name": "Prop Shaft (Bullhorse)",
-      "products": [
-        { "id": "pr1", "name": "Universal Joints", "description": "CV joints and U-joints", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsbNTD0powYjgeXblntpan8BcaM834LXEfTQ&s" },
-        { "id": "pr2", "name": "Centre Bearings", "description": "Propshaft center support bearings", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsbNTD0powYjgeXblntpan8BcaM834LXEfTQ&s" }
-      ]
-    },
-    {
-      "id": "pumps",
-      "name": "Pumps (Bullhorse)",
-      "products": [
-        { "id": "pu1", "name": "Steering Pumps", "description": "Power steering pump assemblies", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsbNTD0powYjgeXblntpan8BcaM834LXEfTQ&s" },
-        { "id": "pu2", "name": "Fuel Pumps", "description": "Electric and mechanical fuel pumps", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsbNTD0powYjgeXblntpan8BcaM834LXEfTQ&s" },
-        { "id": "pu3", "name": "Water Pumps", "description": "Coolant circulation pumps", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsbNTD0powYjgeXblntpan8BcaM834LXEfTQ&s" },
-        { "id": "pu4", "name": "T/M Pump", "description": "Transmission oil pumps", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsbNTD0powYjgeXblntpan8BcaM834LXEfTQ&s" },
-        { "id": "pu5", "name": "Tilt Cams", "description": "Cabin tilt mechanism pumps", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsbNTD0powYjgeXblntpan8BcaM834LXEfTQ&s" }
-      ]
-    },
-    {
-      "id": "pneumatics",
-      "name": "Braking Pneumatics (Bullhorse)",
-      "products": [
-        { "id": "pn1", "name": "4-way Valves", "description": "Four-way pneumatic control valves", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsbNTD0powYjgeXblntpan8BcaM834LXEfTQ&s" },
-        { "id": "pn2", "name": "6-way Valves", "description": "Six-way pneumatic control valves", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsbNTD0powYjgeXblntpan8BcaM834LXEfTQ&s" },
-        { "id": "pn3", "name": "Quick Release Valve", "description": "Quick release brake valves", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsbNTD0powYjgeXblntpan8BcaM834LXEfTQ&s" },
-        { "id": "pn4", "name": "Complete Disc Bags", "description": "Disc brake air bag assemblies", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsbNTD0powYjgeXblntpan8BcaM834LXEfTQ&s" },
-        { "id": "pn5", "name": "Complete Scania Bags", "description": "Scania-specific brake air bags", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsbNTD0powYjgeXblntpan8BcaM834LXEfTQ&s" },
-        { "id": "pn6", "name": "Complete Volvo Bags", "description": "Volvo-specific brake air bags", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsbNTD0powYjgeXblntpan8BcaM834LXEfTQ&s" },
-        { "id": "pn7", "name": "Foot Brake Valves", "description": "Foot-operated brake valves", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsbNTD0powYjgeXblntpan8BcaM834LXEfTQ&s" },
-        { "id": "pn8", "name": "APS Scania", "description": "Scania air processing systems", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsbNTD0powYjgeXblntpan8BcaM834LXEfTQ&s" },
-        { "id": "pn9", "name": "Suci Pipes (Red/Yellow)", "description": "Color-coded pneumatic hoses", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsbNTD0powYjgeXblntpan8BcaM834LXEfTQ&s" },
-        { "id": "pn10", "name": "Compressor", "description": "Air brake compressor units", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsbNTD0powYjgeXblntpan8BcaM834LXEfTQ&s" }
-      ]
-    },
-    {
-      "id": "lubrication",
-      "name": "Lubrication (Bullhorse)",
-      "products": [
-        { "id": "lu1", "name": "10w40 (5L, 20L)", "description": "10W40 engine oil in 5L and 20L", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsbNTD0powYjgeXblntpan8BcaM834LXEfTQ&s" },
-        { "id": "lu2", "name": "5w40 (5L, 20L)", "description": "5W40 synthetic engine oil", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsbNTD0powYjgeXblntpan8BcaM834LXEfTQ&s" },
-        { "id": "lu3", "name": "15w40 (5L, 20L)", "description": "15W40 mineral engine oil", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsbNTD0powYjgeXblntpan8BcaM834LXEfTQ&s" },
-        { "id": "lu4", "name": "Coolant (5L)", "description": "Premium engine coolant 5L", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsbNTD0powYjgeXblntpan8BcaM834LXEfTQ&s" },
-        { "id": "lu5", "name": "Brake Fluid", "description": "DOT 4 brake fluid", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsbNTD0powYjgeXblntpan8BcaM834LXEfTQ&s" },
-        { "id": "lu6", "name": "Intercooler", "description": "Intercooler treatment fluid", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsbNTD0powYjgeXblntpan8BcaM834LXEfTQ&s" },
-        { "id": "lu7", "name": "Grease", "description": "Multi-purpose lithium grease", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsbNTD0powYjgeXblntpan8BcaM834LXEfTQ&s" },
-        { "id": "lu8", "name": "Decalc", "description": "Descaling and cleaning fluid", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsbNTD0powYjgeXblntpan8BcaM834LXEfTQ&s" }
-      ]
-    },
-    {
-      "id": "electricals",
-      "name": "Electricals (Bullhorse)",
-      "products": [
-        { "id": "el1", "name": "Headlamps", "description": "LED and halogen headlamps", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsbNTD0powYjgeXblntpan8BcaM834LXEfTQ&s" },
-        { "id": "el2", "name": "Tail Lamps", "description": "LED tail light assemblies", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsbNTD0powYjgeXblntpan8BcaM834LXEfTQ&s" },
-        { "id": "el3", "name": "Reverse Buzzers", "description": "Reversing alarm systems", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsbNTD0powYjgeXblntpan8BcaM834LXEfTQ&s" },
-        { "id": "el4", "name": "Truck Lamps", "description": "Side marker and clearance lamps", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsbNTD0powYjgeXblntpan8BcaM834LXEfTQ&s" },
-        { "id": "el5", "name": "Adblue Emulators", "description": "AdBlue system emulators", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsbNTD0powYjgeXblntpan8BcaM834LXEfTQ&s" },
-        { "id": "el6", "name": "Switches", "description": "Electrical switches and controls", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsbNTD0powYjgeXblntpan8BcaM834LXEfTQ&s" },
-        { "id": "el7", "name": "Starters Motors", "description": "High-torque starter motors", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsbNTD0powYjgeXblntpan8BcaM834LXEfTQ&s" },
-        { "id": "el8", "name": "Alternators", "description": "Heavy-duty alternators", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsbNTD0powYjgeXblntpan8BcaM834LXEfTQ&s" },
-        { "id": "el9", "name": "Batteries", "description": "Heavy-duty truck batteries", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsbNTD0powYjgeXblntpan8BcaM834LXEfTQ&s" },
-        { "id": "el10", "name": "Accessories", "description": "Electrical accessories and components", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsbNTD0powYjgeXblntpan8BcaM834LXEfTQ&s" }
-      ]
-    },
-    {
-      "id": "miscellaneous",
-      "name": "Miscellaneous",
-      "products": [
-        { "id": "mi1", "name": "Cargo Belts", "description": "Heavy-duty cargo straps and ratchets", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsbNTD0powYjgeXblntpan8BcaM834LXEfTQ&s" },
-        { "id": "mi2", "name": "Wipers", "description": "Wiper blades and arms", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsbNTD0powYjgeXblntpan8BcaM834LXEfTQ&s" },
-        { "id": "mi3", "name": "Door Steps", "description": "Cabin entry step assemblies", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsbNTD0powYjgeXblntpan8BcaM834LXEfTQ&s" },
-        { "id": "mi4", "name": "Bottle Jacks (32T, 50T)", "description": "Hydraulic bottle jacks 32T and 50T", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsbNTD0powYjgeXblntpan8BcaM834LXEfTQ&s" },
-        { "id": "mi5", "name": "Silicone", "description": "Silicone sealants and adhesives", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsbNTD0powYjgeXblntpan8BcaM834LXEfTQ&s" },
-        { "id": "mi6", "name": "Gear Knobs", "description": "Gear shift knobs and gaiters", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsbNTD0powYjgeXblntpan8BcaM834LXEfTQ&s" }
+        {
+          "id": "lu1",
+          "name": "Lubricants Group",
+          "description": "POWER 5W-40, TURBO POWER SAE 10W-40",
+          "image": "https://drive.google.com/uc?export=view&id=1NzMjBiYV-DFoJ96EmQ4zDpdpu7XeCUSN/view?usp=sharing"
+        }
       ]
     }
   ],

@@ -3,8 +3,9 @@ export function renderNavigation(element) {
         <nav class="navbar">
             <div class="nav-container">
                 <div class="nav-logo">
-                <img src="logo/logo.png" alt="Bullhorse Africa Logo" class="logo-image"/>
-                    
+                    <a href="#landing-section">
+                        <img src="./public/assets/logos/logo.png" alt="Bullhorse Africa Logo" class="logo-image"/>
+                    </a>
                 </div>
 
                 <button class="nav-toggle" aria-label="Toggle navigation">

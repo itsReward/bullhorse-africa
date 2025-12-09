@@ -27,9 +27,6 @@ export function renderHero(element) {
                         <a href="#products-section" class="btn btn-secondary">View Products</a>
                     </div>
                 </div>
-                <div class="hero-image">
-                    <img src="/public/assets/images/hero_image.png" alt="Bullhorse Africa Truck Spares" />
-                </div>
             </div>
         </div>
     `;
