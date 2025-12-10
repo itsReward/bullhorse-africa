@@ -190,7 +190,7 @@ section {
     justify-content: center;
     padding: 7rem 2rem 2rem 2rem;
     margin: 0;
-    background: url("/public/assets/images/landing_image.png") center/cover no-repeat;
+    background: url("/public/assets/images/landing_page.webp") center/cover no-repeat;
     overflow: hidden;
 }
 
@@ -258,6 +258,11 @@ section {
     display: inline-block;
     letter-spacing: -2px;
     text-shadow: 0 0 30px rgba(220, 20, 60, 0.3);
+}
+
+.brand-logo {
+    height: 60px; /* Adjust as needed */
+    width: auto;
 }
 
 .hero-subtitle {

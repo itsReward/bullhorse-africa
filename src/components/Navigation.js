@@ -4,7 +4,7 @@ export function renderNavigation(element) {
             <div class="nav-container">
                 <div class="nav-logo">
                     <a href="#landing-section">
-                        <img src="./public/assets/logos/logo.png" alt="Bullhorse Africa Logo" class="logo-image"/>
+                        <img src="./public/assets/logos/logo.webp" alt="Bullhorse Africa Logo" class="logo-image"/>
                     </a>
                 </div>
 

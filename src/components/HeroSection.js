@@ -4,7 +4,7 @@ export function renderHero(element) {
             <div class="hero-wrapper">
                 <div class="hero-content">
                     <h1 class="hero-title">
-                        <span class="brand-name">Bullhorse Africa</span>
+                        <img src="./public/assets/logos/bulllhorse_logo.svg" alt="Bullhorse Africa" class="brand-logo">
                     </h1>
                     <div class="hero-subtitle">
                         <span class="animated-text"></span>
