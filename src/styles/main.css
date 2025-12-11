@@ -572,6 +572,13 @@ section {
     font-weight: 400;
 }
 
+.about-address {
+    font-size: 1rem;
+    color: var(--primary-color);
+    margin-top: 1rem;
+    font-weight: 500;
+}
+
 .about-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));

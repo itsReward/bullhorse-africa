@@ -8,7 +8,7 @@
           "id": "br1",
           "name": "Brake Parts",
           "description": "Image of brake system parts.",
-          "image": "https://drive.google.com/file/d/1mGC8UogFdQP92g_17aAH7oQS_1oukPx0/view?usp=drivesdk"
+          "image": "./public/assets/products/brake-parts.jpg"
         }
       ]
     },
@@ -20,13 +20,13 @@
           "id": "cl1",
           "name": "Clutch Group",
           "description": "Image of clutch group parts.",
-          "image": "https://drive.google.com/file/d/1Mqb1OV0inUk2HS9UMEwZZbiDerTuMYaU/view?usp=sharing"
+          "image": "./public/assets/products/clutch-group.jpg"
         },
         {
           "id": "cl2",
           "name": "Clutch Accessories",
           "description": "Image of clutch accessories.",
-          "image": "https://drive.google.com/file/d/1Kw_iksfXWXQ6MdlQFH-n4KdO9XKHFj7k/view?usp=sharing"
+          "image": "./public/assets/products/clutch-accessories.jpg"
         }
       ]
     },
@@ -38,7 +38,7 @@
           "id": "co1",
           "name": "Cooling Parts",
           "description": "Image of cooling system parts.",
-          "image": "https://drive.google.com/file/d/1MB7fQE3MKm47pyXYLD0T3IRVsJ36D40B/view?usp=sharing"
+          "image": "./public/assets/products/cooling.jpg"
         }
       ]
     },
@@ -50,7 +50,7 @@
           "id": "ep1",
           "name": "Engine Parts",
           "description": "Image of engine parts.",
-          "image": "https://drive.google.com/uc?export=view&id=1ihmW-eVYhSSRaVdxRoobsyk1aSaFkfeJ/view?usp=sharing"
+          "image": "./public/assets/products/engine-parts.jpg"
         }
       ]
     },
@@ -62,7 +62,7 @@
           "id": "fi1",
           "name": "Filtration Group",
           "description": "Image of filtration group parts.",
-          "image": "https://drive.google.com/uc?export=view&id=1AMNVLJKhVlmuH9e9tFKfbJhWypDMSJVR/view?usp=sharing"
+          "image": "./public/assets/products/filtration-group.jpg"
         }
       ]
     },
@@ -74,7 +74,7 @@
           "id": "fu1",
           "name": "Fuel Parts",
           "description": "Image of fuel system parts.",
-          "image": "https://drive.google.com/uc?export=view&id=1LkYsitCjHRP_hoDSxL2FqHwNuhcr177v/view?usp=sharing"
+          "image": "./public/assets/products/fuel-parts.jpg"
         }
       ]
     },
@@ -86,19 +86,19 @@
           "id": "el1",
           "name": "Hooters, Buzzers & Alarms",
           "description": "Hooters, buzzers, and alarms image.",
-          "image": "https://drive.google.com/uc?export=view&id=1X20QdPaWLZGMPs_5JEPiUSf3ss1DBLhV/view?usp=sharing"
+          "image": "./public/assets/products/hooters-buzers-alasrms.jpg"
         },
         {
           "id": "el2",
           "name": "Head Lamps",
           "description": "Head lamps image.",
-          "image": "https://drive.google.com/uc?export=view&id=1eqe8abf2c1nkh91yQGFoBSTn_3pGuwt9/view?usp=sharing"
+          "image": "./public/assets/products/head-lamps.jpg"
         },
         {
           "id": "el3",
           "name": "Electricals Parts",
           "description": "EUROSPEC CALCIUM SUPER POWER Battery.",
-          "image": "https://drive.google.com/uc?export=view&id=1xg7-5Ko6AQvi9FVLeYNadJQqUPS_b3uK/view?usp=sharing"
+          "image": "./public/assets/products/electricals-parts.jpg"
         }
       ]
     },
@@ -110,7 +110,7 @@
           "id": "pr1",
           "name": "Propshaft Group",
           "description": "Image of propshaft group.",
-          "image": "https://drive.google.com/uc?export=view&id=124ZAw5ZYeD7uSku1Gj7sOePYy-7uLGq6/view?usp=sharing"
+          "image": "./public/assets/products/propshaft-grou.jpg"
         }
       ]
     },
@@ -122,7 +122,7 @@
           "id": "pu1",
           "name": "Pumps",
           "description": "Image of pumps.",
-          "image": "https://drive.google.com/uc?export=view&id=1JKYlz1NOMAoqpIFmk9MZcQK0llMd54XD/view?usp=sharing"
+          "image": "./public/assets/products/pumps.jpg"
         }
       ]
     },
@@ -134,7 +134,7 @@
           "id": "pb1",
           "name": "Pulleys with Belts",
           "description": "Image of pulleys with belts.",
-          "image": "https://drive.google.com/uc?export=view&id=12JxFDSADk-WGup-Pbg2UrZXkYZ1A98qz/view?usp=sharing"
+          "image": "./public/assets/products/pulleys-with-belts.jpg"
         }
       ]
     },
@@ -146,7 +146,7 @@
           "id": "st1",
           "name": "Steering System",
           "description": "Image of steering system parts.",
-          "image": "https://drive.google.com/uc?export=view&id=1aXJsBuFv0RIf6x8Sp9sv6JNDoXSH9y24/view?usp=sharing"
+          "image": "./public/assets/products/steering-system.jpg"
         }
       ]
     },
@@ -158,7 +158,7 @@
           "id": "su1",
           "name": "Suspension Parts",
           "description": "Image of suspension parts.",
-          "image": "https://drive.google.com/uc?export=view&id=1FRLeYS9Ok9xK-ShMaxj9yTJoYcakKtHx/view?usp=sharing"
+          "image": "./public/assets/products/suspension-ab1.jpg"
         }
       ]
     },
@@ -170,7 +170,7 @@
           "id": "uc1",
           "name": "Universal Components",
           "description": "Image of universal components.",
-          "image": "https://drive.google.com/uc?export=view&id=1fWhhPXiRXXiw397iMV2n4D0hFC3qSJbJ/view?usp=sharing"
+          "image": "./public/assets/products/universal-components.jpg"
         }
       ]
     },
@@ -182,7 +182,7 @@
           "id": "ex1",
           "name": "Exhaust System",
           "description": "Image of exhaust system parts.",
-          "image": "https://drive.google.com/uc?export=view&id=1BrXcobEaC92245bT1-VNGReUb1TW8asc/view?usp=sharing"
+          "image": "./public/assets/products/exhaust-system.jpg"
         }
       ]
     },
@@ -194,7 +194,7 @@
           "id": "lu1",
           "name": "Lubricants Group",
           "description": "POWER 5W-40, TURBO POWER SAE 10W-40",
-          "image": "https://drive.google.com/uc?export=view&id=1NzMjBiYV-DFoJ96EmQ4zDpdpu7XeCUSN/view?usp=sharing"
+          "image": "./public/assets/products/Lubricants-group.jpg"
         }
       ]
     }

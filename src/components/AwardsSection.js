@@ -4,6 +4,7 @@ export function renderAwards(element, awards) {
             <div class="about-header">
                 <h2 class="about-title">About Bullhorse Africa</h2>
                 <p class="about-subtitle">Your trusted partner for premium truck parts</p>
+                <p class="about-address">3hh Mitchell Road Ardibennie, Harare Zimbabwe</p>
             </div>
 
             <div class="about-grid">
