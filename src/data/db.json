@@ -91,7 +91,7 @@
         {
           "id": "el2",
           "name": "Head Lamps",
-          "description": "Head lamps image.",
+          "description": "Available for MAN, IVECO, DAF, SCANIA, VOLVO etc.",
           "image": "./public/assets/products/head-lamps.jpg"
         },
         {
