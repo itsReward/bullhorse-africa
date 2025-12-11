@@ -261,7 +261,7 @@ section {
 }
 
 .hero-content .brand-logo {
-    height: 400px;
+    height: 150px;
     width: auto;
     filter: brightness(0) saturate(100%) invert(23%) sepia(98%) saturate(5493%) hue-rotate(352deg) brightness(95%) contrast(113%);
 }
