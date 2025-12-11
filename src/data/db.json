@@ -7,7 +7,7 @@
         {
           "id": "br1",
           "name": "Brake Parts",
-          "description": "Image of brake system parts.",
+          "description": "Available for MAN, IVECO, DAF, SCANIA, VOLVO etc.",
           "image": "./public/assets/products/brake-parts.jpg"
         }
       ]
@@ -19,13 +19,13 @@
         {
           "id": "cl1",
           "name": "Clutch Group",
-          "description": "Image of clutch group parts.",
+          "description": "Available for MAN, IVECO, DAF, SCANIA, VOLVO etc.",
           "image": "./public/assets/products/clutch-group.jpg"
         },
         {
           "id": "cl2",
           "name": "Clutch Accessories",
-          "description": "Image of clutch accessories.",
+          "description": "Available for MAN, IVECO, DAF, SCANIA, VOLVO etc.",
           "image": "./public/assets/products/clutch-accesories.jpg"
         }
       ]
@@ -37,7 +37,7 @@
         {
           "id": "co1",
           "name": "Cooling Parts",
-          "description": "Image of cooling system parts.",
+          "description": "Available for MAN, IVECO, DAF, SCANIA, VOLVO etc.",
           "image": "./public/assets/products/cooling.jpg"
         }
       ]
@@ -49,7 +49,7 @@
         {
           "id": "ep1",
           "name": "Engine Parts",
-          "description": "Image of engine parts.",
+          "description": "Available for MAN, IVECO, DAF, SCANIA, VOLVO etc.",
           "image": "./public/assets/products/engine-parts.jpg"
         }
       ]
@@ -61,7 +61,7 @@
         {
           "id": "fi1",
           "name": "Filtration Group",
-          "description": "Image of filtration group parts.",
+          "description": "Available for MAN, IVECO, DAF, SCANIA, VOLVO etc.",
           "image": "./public/assets/products/filtration-group.jpg"
         }
       ]
@@ -73,7 +73,7 @@
         {
           "id": "fu1",
           "name": "Fuel Parts",
-          "description": "Image of fuel system parts.",
+          "description": "Available for MAN, IVECO, DAF, SCANIA, VOLVO etc.",
           "image": "./public/assets/products/fuel-parts.jpg"
         }
       ]
@@ -85,7 +85,7 @@
         {
           "id": "el1",
           "name": "Hooters, Buzzers & Alarms",
-          "description": "Hooters, buzzers, and alarms image.",
+          "description": "Available for MAN, IVECO, DAF, SCANIA, VOLVO etc.",
           "image": "./public/assets/products/hooters-buzers-alasrms.jpg"
         },
         {
@@ -97,7 +97,7 @@
         {
           "id": "el3",
           "name": "Electricals Parts",
-          "description": "EUROSPEC CALCIUM SUPER POWER Battery.",
+          "description": "Available for MAN, IVECO, DAF, SCANIA, VOLVO etc.",
           "image": "./public/assets/products/electricals-parts.jpg"
         }
       ]
@@ -109,7 +109,7 @@
         {
           "id": "pr1",
           "name": "Propshaft Group",
-          "description": "Image of propshaft group.",
+          "description": "Available for MAN, IVECO, DAF, SCANIA, VOLVO etc.",
           "image": "./public/assets/products/propshaft-grou.jpg"
         }
       ]
@@ -121,7 +121,7 @@
         {
           "id": "pu1",
           "name": "Pumps",
-          "description": "Image of pumps.",
+          "description": "Available for MAN, IVECO, DAF, SCANIA, VOLVO etc.",
           "image": "./public/assets/products/pumps.jpg"
         }
       ]
@@ -133,7 +133,7 @@
         {
           "id": "pb1",
           "name": "Pulleys with Belts",
-          "description": "Image of pulleys with belts.",
+          "description": "Available for MAN, IVECO, DAF, SCANIA, VOLVO etc.",
           "image": "./public/assets/products/pulleys-with-belts.jpg"
         }
       ]
@@ -145,7 +145,7 @@
         {
           "id": "st1",
           "name": "Steering System",
-          "description": "Image of steering system parts.",
+          "description": "Available for MAN, IVECO, DAF, SCANIA, VOLVO etc.",
           "image": "./public/assets/products/steering-system.jpg"
         }
       ]
@@ -157,7 +157,7 @@
         {
           "id": "su1",
           "name": "Suspension Parts",
-          "description": "Image of suspension parts.",
+          "description": "Available for MAN, IVECO, DAF, SCANIA, VOLVO etc.",
           "image": "./public/assets/products/suspension-ab1.jpg"
         }
       ]
@@ -169,7 +169,7 @@
         {
           "id": "uc1",
           "name": "Universal Components",
-          "description": "Image of universal components.",
+          "description": "Available for all brands of trucks, including Iveco, Daf, Scania, Volvo etc.",
           "image": "./public/assets/products/universal-components.jpg"
         }
       ]
@@ -181,7 +181,7 @@
         {
           "id": "ex1",
           "name": "Exhaust System",
-          "description": "Image of exhaust system parts.",
+          "description": "Available for MAN, IVECO, DAF, SCANIA, VOLVO etc.",
           "image": "./public/assets/products/exhaust-system.jpg"
         }
       ]
@@ -193,7 +193,7 @@
         {
           "id": "lu1",
           "name": "Lubricants Group",
-          "description": "POWER 5W-40, TURBO POWER SAE 10W-40",
+          "description": "Developed to meet the most stringent requirements of modern engines and machinery.",
           "image": "./public/assets/products/Lubricants-group.jpg"
         }
       ]
