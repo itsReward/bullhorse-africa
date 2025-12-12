@@ -25,10 +25,10 @@ export function renderNavigation(element) {
                         <a href="#awards-section" class="nav-link">About</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#contact" class="nav-link">Contact</a>
+                        <a href="#footer" class="nav-link">Contact</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#contact" class="nav-link nav-cta">Get Quote</a>
+                        <a href="https://wa.me/263772120899" target="_blank" class="nav-link nav-cta">Get Quote</a>
                     </li>
                 </ul>
             </div>

@@ -49,7 +49,7 @@ export function renderAwards(element, awards) {
             </div>
 
             <div class="awards-container">
-                <h3 class="awards-text">Outstanding Autor Spares and Motor entreprenuer</h3>
+                <h3 class="awards-text">Outstanding Auto Spares and Motor entrepreneur</h3>
                 <div class="awards-images">
                     <img src="./public/assets/images/award1.jpg" alt="Award 1" class="award-image">
                     <img src="./public/assets/images/award2.jpg" alt="Award 2" class="award-image">
