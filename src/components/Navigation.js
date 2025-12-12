@@ -4,10 +4,10 @@ export function renderNavigation(element) {
             <div class="nav-container">
                 <div class="nav-logo">
                     <a href="#landing-section">
-                        <img src="./public/assets/logos/logo.webp" alt="Bullhorse Africa Logo" class="logo-image"/>
+                        <img src="./public/assets/logos/logo.svg" alt="Bullhorse Africa Logo" class="logo-image"/>
                     </a>
                 </div>
-
+                
                 <button class="nav-toggle" aria-label="Toggle navigation">
                     <span class="hamburger"></span>
                     <span class="hamburger"></span>
