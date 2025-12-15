@@ -2,9 +2,11 @@ export function renderProducts(element, productCategories) {
     const logos = [
         { name: 'DAF', src: './public/assets/logos/DAF.png' },
         { name: 'IVECO', src: './public/assets/logos/IVECO.png' },
-        { name: 'SCANIA', src: './public/assets/logos/SCANIA.png' },
+        { name: 'SCANIA', src: './public/assets/logos/Scania2.png' },
         { name: 'MAN', src: './public/assets/logos/MAN.png' },
-        { name: 'VOLVO', src: './public/assets/logos/VOLVO.png' }
+        { name: 'VOLVO', src: './public/assets/logos/VOLVO.png' },
+        { name: 'MERCEDES', src: './public/assets/logos/MercedesBenz.png' },
+        { name: 'RENAULT', src: './public/assets/logos/Renault.png' }
     ];
 
     // Create "All" category with all products

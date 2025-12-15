@@ -32,7 +32,7 @@ export function renderHero(element) {
     `;
 
     // Animated text functionality
-    const words = ['Quality truck spares', 'Reliable prices'];
+    const words = ['Reliable prices', 'Absolute Customer Service', 'Delivery Country Wide'];
     let wordIndex = 0;
     let charIndex = 0;
     let isDeleting = false;
